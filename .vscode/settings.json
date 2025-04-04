@@ -3,6 +3,7 @@
     "*.ejs": "html",
     "vector": "cpp",
     "queue": "cpp",
-    "xlocmes": "cpp"
+    "xlocmes": "cpp",
+    "ostream": "cpp"
   }
 }
