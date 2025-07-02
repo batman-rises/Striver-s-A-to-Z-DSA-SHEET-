@@ -3,7 +3,6 @@ class Solution
 public:
     void nearlySorted(vector<int> &arr, int k)
     {
-        // code
         int n = arr.size();
         vector<int> temp(n);
         int index = 0;
