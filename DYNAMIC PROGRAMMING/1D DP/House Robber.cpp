@@ -21,3 +21,22 @@ public:
         return robLinear(nums, n - 1, dp);
     }
 };
+
+
+//tabulation
+class Solution {
+public:
+    int rob(vector<int>& a) {
+        int n=a.size();
+        vector<int> dp(n+1,0);
+        dp[0]=a[0];
+        for(int i=1;i<n;i++){
+            int take=a[i];
+            if(i>1)
+                take+=notTakedp[i-2];
+            int =0+dp[i-1];
+            dp[i]=max(take,notTake);
+        }
+        return dp[n-1];
+    }
+};
