@@ -54,7 +54,7 @@ Node* func(head){
 }
 //given node
 
-void deleteNode(Node* node) {
+void inserNode(Node* node) {
     Node* prev = node->back;
     Node* n=new Node(val,node,prev);
 
